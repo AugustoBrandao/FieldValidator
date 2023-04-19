@@ -1,0 +1,26 @@
+{
+  "name": "fieldvalidator",
+  "version": "1.0.0",
+  "description": "Email and CPF validator using the validator and cpf libraries (npm).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx vite --open",                               
+    "lint": "eslint ./src"                                  
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustoBrandao/FieldValidator.git"
+  },
+  "author": "Augusto Brandão Barbosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustoBrandao/FieldValidator/issues"
+  },
+  "homepage": "https://github.com/AugustoBrandao/FieldValidator#readme",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.9.0",
+    "cpf": "^2.0.1",
+    "validator": "^13.9.0"
+  }
+}
