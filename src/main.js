@@ -8,7 +8,7 @@ const seletor = document.querySelector('#option');
 const textoDeSaida = document.querySelector('#answer');
 
 button.addEventListener('click', (event) => {
-  event.preventDefault(); 
+  event.preventDefault();
 
   const campos = {
     cpf: cpf.isValid(campoDeTexto.value),
@@ -19,4 +19,4 @@ button.addEventListener('click', (event) => {
   };
 
   textoDeSaida.innerHTML = `A validação retornou ${campos[seletor.value]}`;
-})
+});
