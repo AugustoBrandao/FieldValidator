@@ -22,3 +22,8 @@
         "extends" : "@trybe/eslint-config-frontend"
     }
 `````
+
+## Crie o arquivo .gitignore
+
+`````
+node_modules/
