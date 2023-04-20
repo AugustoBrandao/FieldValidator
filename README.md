@@ -3,7 +3,7 @@
 1- npm init                                     //gerar o package.json
 2- npm install validator                        //instalar biblioteca validator
 3- npm install cpf                              //instalar biblioteca cpf
-4- npx vite                                     //executar o Vite
+4- npm i vite                                   //instalar o Vite
 5- npm install @trybe/eslint-config-frontend    //instalando o ESLint da Trybe
 ``````
 
